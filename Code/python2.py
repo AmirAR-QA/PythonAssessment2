@@ -32,7 +32,7 @@
 def one(input):
 	ans = ""
 	for x in input:
-		ans += 2 * x
+		ans += 3 * x
 	return ans
 
 	# <QUESTION 2>
@@ -51,14 +51,13 @@ def one(input):
 	# Use your CLI to access the Python documentation and get help manipulating strings - help(range).
 
 def two(input):
-	if input > 1
-		return False
-	if input = 1
-		return True
-	for i in range(2, input):
+	for i in range(1, input):
 		if input % i == 0:
-    	return False
-    return False
+			if i == 1 or i == input:
+				pass
+			else:
+				return False
+	return True
 
 	# <QUESTION 3>
 
@@ -66,14 +65,14 @@ def two(input):
 
 	# So if 2 was the input, the function should return 2+22+222+2222 which is 2468.
 
-	# <EXAMPLES>
+	# <EXAMPLES
 
 	# three(9) → 11106
 	# three(5) → 6170
 
 	# <HINT>
 	# What happens if you multiply a string by a number?
-	
+
 def three(a):
 	x = int(str(a)*2)
 	y = int(str(a)*3)

@@ -1,4 +1,7 @@
 import pytest
+import sys
+import os
+sys.path.append(os.path.abspath("Users/amira/Desktop/Git/PythonAssessment2"))
 from Code import python2
 
 def test_one():
