@@ -73,9 +73,12 @@ def two(input):
 
 	# <HINT>
 	# What happens if you multiply a string by a number?
-
+	
 def three(a):
-	return 1
+	x = int(str(a)*2)
+	y = int(str(a)*3)
+	z = int(str(a)*4)
+	return a + x + y + z
 
 	# <QUESTION 4>
 
