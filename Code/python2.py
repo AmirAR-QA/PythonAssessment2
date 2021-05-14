@@ -149,7 +149,9 @@ def five():
 	# There are no hints for this question.
     
 def six(input):
-	return False
+	realtext = input.casefold()
+	result = realtext.endswith("py")
+	return result
 
 	# <QUESTION 7>
 
