@@ -175,7 +175,14 @@ def six(input):
 	# Use the cli to access the documentation help(list.sort)
 
 def seven(a, b, c):
-	return False
+	input = [a,b,c]
+	input.sort()
+	x = input[2] - input[1]
+	y = input[1] - input[0]
+	if x == y:
+		return True
+	else:
+		return False
 
 	# <QUESTION 8>
 
