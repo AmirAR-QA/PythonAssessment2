@@ -106,7 +106,8 @@ def three(a):
 	# How would you seperate a string into characters?
 
 def four(input1, input2):
-	return ""
+	result = "".join(i + j for i, j in zip(input1, input2))
+	return result
 
 	# <QUESTION 5>
 
