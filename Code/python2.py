@@ -217,7 +217,7 @@ def eight(input,  a):
 	# There are no hints for this question.
 
 def nine(string1, string2):
-    return False
+	if len(string1) <= len(string2):
 
 	# <QUESTION 10>
 
